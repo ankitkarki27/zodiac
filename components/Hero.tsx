@@ -72,7 +72,7 @@ const Hero = () => {
           <Image
             src="/hero-preview.png"
             alt="Vasuki Web Studio work preview showing modern website design"
-            width={1200}
+            width={1400}
             height={700}
             className="w-full h-auto object-cover group-hover:scale-[1.02] transition-transform duration-700"
             priority
