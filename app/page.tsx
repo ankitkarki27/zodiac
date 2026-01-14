@@ -1,6 +1,7 @@
 
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
+import ProjectCard from "@/components/ProjectCard";
 // import ProjectCard from "@/components/ProjectCard";
 // import SkillCard from "@/components/SkillCard";
 // import ContactForm from "@/components/ContactForm";
@@ -8,18 +9,19 @@ import Navbar from "@/components/Navbar";
 export default function Home() {
 
   return (
+    
     <div className="min-h-screen bg-white font-sans dark:bg-black">
-      
-      <main className="flex flex-col items-center justify-center px-4">
+      <Navbar />
+      <main className="flex flex-col items-center justify-center px-2">
         <Hero />
 
-        {/* <section id="projects" className="w-full max-w-2xl my-16">
+        <section id="projects" className="w-full max-w-2xl my-16">
           <h2 className="text-2xl font-bold mb-6">Projects</h2>
           <div className="grid gap-6">
-            
+            <ProjectCard />
             <div className="p-6 border rounded-lg text-center text-gray-500 dark:text-gray-400">Projects coming soon!</div>
           </div>
-        </section> */}
+        </section>
 
         {/* <section id="skills" className="w-full max-w-2xl my-16">
           <h2 className="text-2xl font-bold mb-6">Skills</h2>
